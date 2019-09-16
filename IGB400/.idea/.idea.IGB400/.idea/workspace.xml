@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0cd3430-d660-43b6-983a-58e197302b88" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding>
+                <marker date="1568590598177" expanded="true" signature="6:44" ph="..." />
+                <marker date="1568590598177" expanded="true" signature="234:5013" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="772:1159" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="1168:1322" ph="/* Move returns true if it is able to move and false if not. ... */" />
+                <marker date="1568590598177" expanded="true" signature="1387:2383" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="2070:2295" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="2549:3564" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="2557:2781" ph="/* Calculate the remaining distance to move based on the square magnitude of the difference between current posit ... */" />
+                <marker date="1568590598177" expanded="true" signature="2990:3560" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="3573:3843" ph="/* The virtual keyword means AttemptMove can be overridden by inheriting classes using the override keyword. ... */" />
+                <marker date="1568590598177" expanded="true" signature="3928:4742" ph="{...}" />
+                <marker date="1568590598177" expanded="true" signature="4751:4931" ph="/* The abstract modifier indicates that the thing being modified has a missing or incomplete implementation. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="129" column="56" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="56" />
+              <folding>
+                <marker date="1568595978828" expanded="true" signature="6:157" ph="..." />
+                <marker date="1568595978828" expanded="true" signature="304:11017" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="2124:2584" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="2243:2562" ph="/* Get the current health point total stored in GameManager.instance between levels. ... */" />
+                <marker date="1568595978828" expanded="true" signature="2695:2886" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="2917:5874" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="3730:3758" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="5587:5870" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="5597:5834" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
+                <marker date="1568595978828" expanded="true" signature="5880:6103" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
+                <marker date="1568595978828" expanded="true" signature="6166:6992" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="6557:6739" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="7001:7187" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
+                <marker date="1568595978828" expanded="true" signature="7242:7618" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="7793:9485" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="7890:8134" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="8238:8813" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="8914:9481" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="9560:9881" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="9568:9777" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
+                <marker date="1568595978828" expanded="true" signature="9890:10015" ph="/* LoseFood is called when an enemy attacks the player. ... */" />
+                <marker date="1568595978828" expanded="true" signature="10051:10441" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="10572:11014" ph="{...}" />
+                <marker date="1568595978828" expanded="true" signature="10662:11010" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+              <folding>
+                <marker date="1568594595753" expanded="true" signature="6:166" ph="..." />
+                <marker date="1568594595753" expanded="true" signature="237:5118" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="1416:2130" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="2140:2344" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+                <marker date="1568594595753" expanded="true" signature="2478:2632" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="2761:2844" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="2907:2923" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="2995:3162" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="3215:3513" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="3630:3694" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="3786:4069" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="4143:5115" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="4430:4597" ph="{...}" />
+                <marker date="1568594595753" expanded="true" signature="4685:4921" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+              <folding>
+                <marker date="1568591570622" expanded="true" signature="6:44" ph="..." />
+                <marker date="1568591570622" expanded="true" signature="192:4386" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="931:1510" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="939:1096" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
+                <marker date="1568591570622" expanded="true" signature="1519:1709" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
+                <marker date="1568591570622" expanded="true" signature="1772:2110" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="1866:1915" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="2249:3385" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="2257:2432" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
+                <marker date="1568591570622" expanded="true" signature="3394:3649" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
+                <marker date="1568591570622" expanded="true" signature="3704:4284" ph="{...}" />
+                <marker date="1568591570622" expanded="true" signature="4328:4383" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <marker date="1568590972204" expanded="true" signature="6:44" ph="..." />
+                <marker date="1568590972204" expanded="true" signature="87:2009" ph="{...}" />
+                <marker date="1568590972204" expanded="true" signature="564:1041" ph="{...}" />
+                <marker date="1568590972204" expanded="true" signature="1117:1283" ph="{...}" />
+                <marker date="1568590972204" expanded="true" signature="1439:2006" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>damagw</find>
+      <find>xdi</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0cd3430-d660-43b6-983a-58e197302b88" name="Default Changelist" comment="" />
+      <created>1568590130962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568590130962</updated>
+      <workItem from="1568590137929" duration="7045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7045000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <marker date="1568590972204" expanded="true" signature="6:44" ph="..." />
+            <marker date="1568590972204" expanded="true" signature="87:2009" ph="{...}" />
+            <marker date="1568590972204" expanded="true" signature="564:1041" ph="{...}" />
+            <marker date="1568590972204" expanded="true" signature="1117:1283" ph="{...}" />
+            <marker date="1568590972204" expanded="true" signature="1439:2006" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+          <folding>
+            <marker date="1568591570622" expanded="true" signature="6:44" ph="..." />
+            <marker date="1568591570622" expanded="true" signature="192:4386" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="931:1510" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="939:1096" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
+            <marker date="1568591570622" expanded="true" signature="1519:1709" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
+            <marker date="1568591570622" expanded="true" signature="1772:2110" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="1866:1915" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="2249:3385" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="2257:2432" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
+            <marker date="1568591570622" expanded="true" signature="3394:3649" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
+            <marker date="1568591570622" expanded="true" signature="3704:4284" ph="{...}" />
+            <marker date="1568591570622" expanded="true" signature="4328:4383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="129" column="56" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="56" />
+          <folding>
+            <marker date="1568595978828" expanded="true" signature="6:157" ph="..." />
+            <marker date="1568595978828" expanded="true" signature="304:11017" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="2124:2584" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="2243:2562" ph="/* Get the current health point total stored in GameManager.instance between levels. ... */" />
+            <marker date="1568595978828" expanded="true" signature="2695:2886" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="2917:5874" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="3730:3758" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="5587:5870" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="5597:5834" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
+            <marker date="1568595978828" expanded="true" signature="5880:6103" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
+            <marker date="1568595978828" expanded="true" signature="6166:6992" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="6557:6739" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="7001:7187" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
+            <marker date="1568595978828" expanded="true" signature="7242:7618" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="7793:9485" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="7890:8134" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="8238:8813" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="8914:9481" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="9560:9881" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="9568:9777" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
+            <marker date="1568595978828" expanded="true" signature="9890:10015" ph="/* LoseFood is called when an enemy attacks the player. ... */" />
+            <marker date="1568595978828" expanded="true" signature="10051:10441" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="10572:11014" ph="{...}" />
+            <marker date="1568595978828" expanded="true" signature="10662:11010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+          <folding>
+            <marker date="1568594595753" expanded="true" signature="6:166" ph="..." />
+            <marker date="1568594595753" expanded="true" signature="237:5118" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="1416:2130" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="2140:2344" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+            <marker date="1568594595753" expanded="true" signature="2478:2632" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="2761:2844" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="2907:2923" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="2995:3162" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="3215:3513" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="3630:3694" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="3786:4069" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="4143:5115" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="4430:4597" ph="{...}" />
+            <marker date="1568594595753" expanded="true" signature="4685:4921" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <marker date="1568590598177" expanded="true" signature="6:44" ph="..." />
+            <marker date="1568590598177" expanded="true" signature="234:5013" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="772:1159" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="1168:1322" ph="/* Move returns true if it is able to move and false if not. ... */" />
+            <marker date="1568590598177" expanded="true" signature="1387:2383" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="2070:2295" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="2549:3564" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="2557:2781" ph="/* Calculate the remaining distance to move based on the square magnitude of the difference between current posit ... */" />
+            <marker date="1568590598177" expanded="true" signature="2990:3560" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="3573:3843" ph="/* The virtual keyword means AttemptMove can be overridden by inheriting classes using the override keyword. ... */" />
+            <marker date="1568590598177" expanded="true" signature="3928:4742" ph="{...}" />
+            <marker date="1568590598177" expanded="true" signature="4751:4931" ph="/* The abstract modifier indicates that the thing being modified has a missing or incomplete implementation. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

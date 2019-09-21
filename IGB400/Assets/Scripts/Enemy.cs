@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
+namespace Completed
+{
 	//Enemy inherits from MovingObject, our base class for objects that can move, Player also inherits from this.
 	public class Enemy : MovingObject
 	{
@@ -85,7 +86,7 @@ using System.Collections;
 			Player hitPlayer = component as Player;
 			
 			//Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
-			hitPlayer.LoseHealth (playerDamage);
+			hitPlayer.LoseFood (playerDamage);
 			
 			//Set the attack trigger of animator to trigger Enemy attack animation.
 			animator.SetTrigger ("enemyAttack");
@@ -93,9 +94,5 @@ using System.Collections;
 			//Call the RandomizeSfx function of SoundManager passing in the two audio clips to choose randomly between.
 			SoundManager.instance.RandomizeSfx (attackSound1, attackSound2);
 		}
-
-		public void DamageEnemy(int enemyDamage)
-		{
-			throw new System.NotImplementedException();
-		}
 	}
+}

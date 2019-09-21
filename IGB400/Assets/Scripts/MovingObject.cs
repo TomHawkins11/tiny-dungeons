@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
+namespace Completed
+{
 	//The abstract keyword enables you to create classes and class members that are incomplete and must be implemented in a derived class.
 	public abstract class MovingObject : MonoBehaviour
 	{
@@ -119,4 +120,4 @@ using System.Collections;
 		protected abstract void OnCantMove <T> (T component)
 			where T : Component;
 	}
-
+}

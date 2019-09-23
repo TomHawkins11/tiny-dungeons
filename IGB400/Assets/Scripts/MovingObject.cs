@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Completed
-{
+
 	//The abstract keyword enables you to create classes and class members that are incomplete and must be implemented in a derived class.
 	public abstract class MovingObject : MonoBehaviour
 	{
+
+		public float moveDistance = 1f;
 		public float moveTime = 0.1f;			//Time it will take object to move, in seconds.
 		public LayerMask blockingLayer;			//Layer on which collision will be checked.
 		
@@ -51,6 +52,7 @@ namespace Completed
 			//Check if anything was hit
 			if(hit.transform == null)
 			{
+				
 				//If nothing was hit, start SmoothMovement co-routine passing in the Vector2 end as destination
 				StartCoroutine (SmoothMovement (end));
 				
@@ -62,6 +64,10 @@ namespace Completed
 			return false;
 		}
 		
+		bool IsLeft(Vector3 A, Vector3 B)
+		{
+			return (-A.x * B.y + A.y * B.x < 0);
+		}
 		
 		//Co-routine for moving units from one space to next, takes a parameter end to specify where to move to.
 		protected IEnumerator SmoothMovement (Vector3 end)
@@ -69,6 +75,8 @@ namespace Completed
 			//Calculate the remaining distance to move based on the square magnitude of the difference between current position and end parameter. 
 			//Square magnitude is used instead of magnitude because it's computationally cheaper.
 			float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
+			
+
 			
 			//While that distance is greater than a very small amount (Epsilon, almost zero):
 			while(sqrRemainingDistance > float.Epsilon)
@@ -120,4 +128,4 @@ namespace Completed
 		protected abstract void OnCantMove <T> (T component)
 			where T : Component;
 	}
-}
+

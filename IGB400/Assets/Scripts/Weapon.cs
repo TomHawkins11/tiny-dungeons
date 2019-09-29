@@ -5,6 +5,7 @@ using UnityEngine;
 public class Weapon : Item
 {
     public int WeaponDamage = 1; //default damage for all weapons
+    public GameObject attackPrefab;
 
     private BoxCollider2D BC2D;
     // Start is called before the first frame update
@@ -14,13 +15,11 @@ public class Weapon : Item
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public void Attack(int dmg)
+    public int DealDamage()
     {
+        return WeaponDamage;
+        RemainingUses--;
         
     }
 }

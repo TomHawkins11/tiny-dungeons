@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;	//Allows us to use UI.
+using TMPro;
+using UnityEngine.UI;	
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
@@ -10,18 +11,20 @@ using UnityEngine.Serialization;
 	{
 		public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
 		public int wallDamage = 1;					//How much damage a player does to a wall when chopping it.
-		public Text healthText;						//UI Text to display current player health total.
+		public TextMeshProUGUI healthText;						//UI Text to display current player health total.
 		public AudioClip moveSound1;				//1 of 2 Audio clips to play when player moves.
 		public AudioClip moveSound2;				//2 of 2 Audio clips to play when player moves.
 		public AudioClip gameOverSound;				//Audio clip to play when player dies.
-		public GameObject WeaponPosition;
+		[FormerlySerializedAs("WeaponPosition")] public GameObject weaponPosition;
+		public GameObject equippedWeapon;
 		
 		private Animator _animator;					//Used to store a reference to the Player's animator component.
 		private int _health;                           //Used to store player health points total during level.
 		private static readonly int PlayerHit = Animator.StringToHash("playerHit");
 		private static readonly int PlayerAttack = Animator.StringToHash("playerAttack");
 		private static readonly int PlayerMove = Animator.StringToHash("playerMove");
-		
+		public GameObject tombStone;
+
 #if UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
         private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
 #endif
@@ -123,7 +126,7 @@ using UnityEngine.Serialization;
 			{
 				//Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they encounter one (by attacking it)
 				//Pass in horizontal and vertical as parameters to specify the direction to move Player in.
-				AttemptMove<Wall> (horizontal, vertical);
+				AttemptMove<Enemy> (horizontal, vertical);
 			}
 		}
 		
@@ -162,22 +165,31 @@ using UnityEngine.Serialization;
 
 		public void WeaponPickup(GameObject weapon)
 		{
-			weapon.transform.SetParent(WeaponPosition.transform);
+			weapon.transform.SetParent(weaponPosition.transform);
 			weapon.GetComponent<BoxCollider2D>().enabled = false;
+			weapon.transform.localPosition = Vector3.zero;
+			equippedWeapon = weapon;
 		}
 
 		//OnCantMove overrides the abstract function OnCantMove in MovingObject.
 		//It takes a generic parameter T which in the case of Player is a Wall which the player can attack and destroy.
 		protected override void OnCantMove <T> (T component)
 		{
+			Debug.Log("Enemy Hit for" );
 			//Set hitWall to equal the component passed in as a parameter.
-			Wall hitWall = component as Wall;
+			Enemy hitEnemy = component as Enemy;
 			
 			//Call the DamageWall function of the Wall we are hitting.
-			if (hitWall != null) hitWall.DamageWall(wallDamage);
+
+			System.Diagnostics.Debug.Assert(hitEnemy != null, "hitEnemy != null");
+			hitEnemy.DamageEnemy(equippedWeapon.GetComponent<Weapon>().DealDamage());
+			Instantiate(equippedWeapon.GetComponent<Weapon>().attackPrefab, hitEnemy.gameObject.transform);
+			
 
 			//Set the attack trigger of the player's animation controller in order to play the player's attack animation.
 			_animator.SetTrigger (PlayerAttack);
+			
+
 		}
 		
 		
@@ -254,6 +266,9 @@ using UnityEngine.Serialization;
 				
 				//Call the GameOver function of GameManager.
 				GameManager.Instance.GameOver ();
+
+				Instantiate(tombStone);
+				Destroy(gameObject);
 			}
 		}
 	}

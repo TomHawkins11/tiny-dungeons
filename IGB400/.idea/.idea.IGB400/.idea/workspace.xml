@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+            <state relative-caret-position="1755">
+              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <marker date="1569219464000" expanded="false" signature="6:44" ph="..." />
                 <marker date="1569219464000" expanded="true" signature="234:5142" ph="{...}" />
@@ -37,35 +37,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="203" column="13" selection-start-line="203" selection-start-column="13" selection-end-line="203" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
               <folding>
-                <marker date="1569221584000" expanded="false" signature="6:157" ph="..." />
-                <marker date="1569221584000" expanded="true" signature="306:9748" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="1577:1925" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="2036:2231" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="2262:5236" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="2363:2385" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="3090:3118" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="4934:5232" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="4944:5181" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
-                <marker date="1569221584000" expanded="true" signature="5242:5465" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
-                <marker date="1569221584000" expanded="true" signature="5528:6563" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="5607:5697" ph="/* Update food text display to reflect current score. ... */" />
-                <marker date="1569221584000" expanded="true" signature="6088:6310" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="6610:6732" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="6736:6922" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
-                <marker date="1569221584000" expanded="true" signature="6977:7364" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="7539:8223" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="7635:7885" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="7992:8014" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="8057:8103" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="8204:8219" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="8298:8619" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="8306:8515" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
-                <marker date="1569221584000" expanded="true" signature="8628:8745" ph="/* is called when an enemy attacks the player. ... */" />
-                <marker date="1569221584000" expanded="true" signature="9303:9745" ph="{...}" />
-                <marker date="1569221584000" expanded="true" signature="9393:9741" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="6:148" ph="..." />
+                <marker date="1569748342000" expanded="true" signature="297:10228" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="1685:2033" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="2144:2339" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="2370:5345" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="2471:2493" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="3198:3226" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="5042:5341" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="5052:5289" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
+                <marker date="1569748342000" expanded="true" signature="5351:5574" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
+                <marker date="1569748342000" expanded="true" signature="5637:6672" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="5716:5806" ph="/* Update food text display to reflect current score. ... */" />
+                <marker date="1569748342000" expanded="true" signature="6197:6419" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="6719:6919" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="6923:7109" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
+                <marker date="1569748342000" expanded="true" signature="7164:7790" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="7965:8649" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8061:8311" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8418:8440" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8483:8529" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8630:8645" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8724:9045" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="8732:8941" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
+                <marker date="1569748342000" expanded="true" signature="9054:9171" ph="/* is called when an enemy attacks the player. ... */" />
+                <marker date="1569748342000" expanded="true" signature="9210:9598" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="9729:10225" ph="{...}" />
+                <marker date="1569748342000" expanded="true" signature="9819:10221" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,14 +75,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="270">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
-                <marker date="1569221202000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1569221202000" expanded="true" signature="106:481" ph="{...}" />
-                <marker date="1569221202000" expanded="true" signature="277:346" ph="{...}" />
-                <marker date="1569221202000" expanded="true" signature="404:425" ph="{...}" />
-                <marker date="1569221202000" expanded="true" signature="458:479" ph="{...}" />
+                <marker date="1569748358000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1569748358000" expanded="true" signature="106:528" ph="{...}" />
+                <marker date="1569748358000" expanded="true" signature="313:382" ph="{...}" />
+                <marker date="1569748358000" expanded="true" signature="451:526" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,12 +103,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="212">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <marker date="1569215842000" expanded="true" signature="6:92" ph="..." />
-                <marker date="1569215842000" expanded="true" signature="139:594" ph="{...}" />
-                <marker date="1569215842000" expanded="true" signature="323:592" ph="{...}" />
+                <marker date="1569745644000" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569745644000" expanded="true" signature="139:774" ph="{...}" />
+                <marker date="1569745644000" expanded="true" signature="344:399" ph="{...}" />
+                <marker date="1569745644000" expanded="true" signature="431:772" ph="{...}" />
+                <marker date="1569745644000" expanded="true" signature="467:706" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wall.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="60">
               <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <marker date="1569211268000" expanded="false" signature="6:44" ph="..." />
@@ -132,24 +134,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="225">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
-                <marker date="1569211834000" expanded="true" signature="6:200" ph="..." />
-                <marker date="1569211834000" expanded="true" signature="271:4848" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="1156:1937" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="1788:1918" ph="/* Get a component reference to the attached BoardManager script ... */" />
-                <marker date="1569211834000" expanded="true" signature="1947:2151" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
-                <marker date="1569211834000" expanded="true" signature="2285:2439" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="2568:2621" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="2691:2941" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="3008:3102" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="3153:3449" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="3566:3631" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="3723:3786" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="3860:4845" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="4153:4344" ph="{...}" />
-                <marker date="1569211834000" expanded="true" signature="4424:4646" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="6:200" ph="..." />
+                <marker date="1569746258000" expanded="true" signature="271:4967" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="1156:1937" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="1788:1918" ph="/* Get a component reference to the attached BoardManager script ... */" />
+                <marker date="1569746258000" expanded="true" signature="1947:2151" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+                <marker date="1569746258000" expanded="true" signature="2285:2439" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="2568:2621" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="2691:2941" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3008:3102" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3153:3449" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3566:3631" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3682:3750" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3842:3905" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="3979:4964" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="4272:4463" ph="{...}" />
+                <marker date="1569746258000" expanded="true" signature="4543:4765" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,20 +161,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="228">
+              <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
               <folding>
-                <marker date="1569211216000" expanded="false" signature="6:44" ph="..." />
-                <marker date="1569211216000" expanded="true" signature="192:4290" ph="{...}" />
-                <marker date="1569211216000" expanded="true" signature="931:1510" ph="{...}" />
-                <marker date="1569211216000" expanded="true" signature="939:1096" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
-                <marker date="1569211216000" expanded="true" signature="1519:1709" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
-                <marker date="1569211216000" expanded="true" signature="1772:2110" ph="{...}" />
-                <marker date="1569211216000" expanded="true" signature="1866:1915" ph="{...}" />
-                <marker date="1569211216000" expanded="true" signature="2249:3385" ph="{...}" />
-                <marker date="1569211216000" expanded="true" signature="2257:2432" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
-                <marker date="1569211216000" expanded="true" signature="3394:3649" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
-                <marker date="1569211216000" expanded="true" signature="3704:4287" ph="{...}" />
+                <marker date="1569746294000" expanded="false" signature="6:44" ph="..." />
+                <marker date="1569746294000" expanded="true" signature="192:4635" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="994:1573" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="1002:1159" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
+                <marker date="1569746294000" expanded="true" signature="1582:1772" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
+                <marker date="1569746294000" expanded="true" signature="1835:2173" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="1929:1978" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="2318:3456" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="2326:2501" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
+                <marker date="1569746294000" expanded="true" signature="3465:3720" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
+                <marker date="1569746294000" expanded="true" signature="3775:4359" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="4404:4456" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="4485:4632" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="4509:4598" ph="{...}" />
+                <marker date="1569746294000" expanded="true" signature="4606:4628" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,8 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="213">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <marker date="1569211216000" expanded="false" signature="6:44" ph="..." />
                 <marker date="1569211216000" expanded="true" signature="90:2083" ph="{...}" />
@@ -205,26 +212,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
@@ -232,9 +239,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1909" />
+    <option name="x" value="1908" />
     <option name="width" value="1940" />
-    <option name="height" value="2111" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,15 +249,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +267,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="10492">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -302,11 +309,18 @@
       <updated>1568590130962</updated>
       <workItem from="1568590137929" duration="7045000" />
       <workItem from="1568854427305" duration="2181000" />
+      <workItem from="1569737274455" duration="196000" />
+      <workItem from="1569737521166" duration="270000" />
+      <workItem from="1569737910641" duration="791000" />
+      <workItem from="1569739182570" duration="800000" />
+      <workItem from="1569740039247" duration="3000" />
+      <workItem from="1569740067729" duration="353000" />
+      <workItem from="1569740672909" duration="6987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16781000" />
+    <option name="totallyTimeSpent" value="26181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,9 +332,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25253063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27747253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,14 +345,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info active="true" anchor="bottom" id="Performance Profiler" order="8" sideWeight="0.49862638" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Unity" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50137365" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" sideWeight="0.49931318" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="60">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
             <marker date="1569211268000" expanded="false" signature="6:44" ph="..." />
@@ -377,42 +392,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <marker date="1569211216000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1569211216000" expanded="true" signature="192:4290" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="931:1510" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="939:1096" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
-            <marker date="1569211216000" expanded="true" signature="1519:1709" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
-            <marker date="1569211216000" expanded="true" signature="1772:2110" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="1866:1915" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="2249:3385" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="2257:2432" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
-            <marker date="1569211216000" expanded="true" signature="3394:3649" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
-            <marker date="1569211216000" expanded="true" signature="3704:4287" ph="{...}" />
+            <marker date="1569211216000" expanded="true" signature="90:2083" ph="{...}" />
+            <marker date="1569211216000" expanded="true" signature="630:1107" ph="{...}" />
+            <marker date="1569211216000" expanded="true" signature="1191:1357" ph="{...}" />
+            <marker date="1569211216000" expanded="true" signature="1513:2080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1569221202000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569221202000" expanded="true" signature="122:258" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="212">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1569215842000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569215842000" expanded="true" signature="139:594" ph="{...}" />
-            <marker date="1569215842000" expanded="true" signature="323:592" ph="{...}" />
+            <marker date="1569745644000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569745644000" expanded="true" signature="139:774" ph="{...}" />
+            <marker date="1569745644000" expanded="true" signature="344:399" ph="{...}" />
+            <marker date="1569745644000" expanded="true" signature="431:772" ph="{...}" />
+            <marker date="1569745644000" expanded="true" signature="467:706" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <marker date="1569746258000" expanded="true" signature="6:200" ph="..." />
+            <marker date="1569746258000" expanded="true" signature="271:4967" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="1156:1937" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="1788:1918" ph="/* Get a component reference to the attached BoardManager script ... */" />
+            <marker date="1569746258000" expanded="true" signature="1947:2151" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+            <marker date="1569746258000" expanded="true" signature="2285:2439" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="2568:2621" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="2691:2941" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3008:3102" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3153:3449" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3566:3631" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3682:3750" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3842:3905" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="3979:4964" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="4272:4463" ph="{...}" />
+            <marker date="1569746258000" expanded="true" signature="4543:4765" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+          <folding>
+            <marker date="1569746294000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1569746294000" expanded="true" signature="192:4635" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="994:1573" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="1002:1159" ph="/* Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. ... */" />
+            <marker date="1569746294000" expanded="true" signature="1582:1772" ph="/* Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns. ... */" />
+            <marker date="1569746294000" expanded="true" signature="1835:2173" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="1929:1978" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="2318:3456" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="2326:2501" ph="/* Declare variables for X and Y axis move directions, these range from -1 to 1. ... */" />
+            <marker date="1569746294000" expanded="true" signature="3465:3720" ph="/* OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove  ... */" />
+            <marker date="1569746294000" expanded="true" signature="3775:4359" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="4404:4456" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="4485:4632" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="4509:4598" ph="{...}" />
+            <marker date="1569746294000" expanded="true" signature="4606:4628" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+        <state relative-caret-position="1755">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
             <marker date="1569219464000" expanded="false" signature="6:44" ph="..." />
             <marker date="1569219464000" expanded="true" signature="234:5142" ph="{...}" />
@@ -431,100 +502,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <marker date="1569221202000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1569221202000" expanded="true" signature="122:258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="270">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <marker date="1569221202000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1569221202000" expanded="true" signature="106:481" ph="{...}" />
-            <marker date="1569221202000" expanded="true" signature="277:346" ph="{...}" />
-            <marker date="1569221202000" expanded="true" signature="404:425" ph="{...}" />
-            <marker date="1569221202000" expanded="true" signature="458:479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <marker date="1569211216000" expanded="false" signature="6:44" ph="..." />
-            <marker date="1569211216000" expanded="true" signature="90:2083" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="630:1107" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="1191:1357" ph="{...}" />
-            <marker date="1569211216000" expanded="true" signature="1513:2080" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <marker date="1569211834000" expanded="true" signature="6:200" ph="..." />
-            <marker date="1569211834000" expanded="true" signature="271:4848" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="1156:1937" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="1788:1918" ph="/* Get a component reference to the attached BoardManager script ... */" />
-            <marker date="1569211834000" expanded="true" signature="1947:2151" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
-            <marker date="1569211834000" expanded="true" signature="2285:2439" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="2568:2621" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="2691:2941" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="3008:3102" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="3153:3449" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="3566:3631" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="3723:3786" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="3860:4845" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="4153:4344" ph="{...}" />
-            <marker date="1569211834000" expanded="true" signature="4424:4646" ph="{...}" />
+            <marker date="1569748358000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569748358000" expanded="true" signature="106:528" ph="{...}" />
+            <marker date="1569748358000" expanded="true" signature="313:382" ph="{...}" />
+            <marker date="1569748358000" expanded="true" signature="451:526" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="203" column="13" selection-start-line="203" selection-start-column="13" selection-end-line="203" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
           <folding>
-            <marker date="1569221584000" expanded="false" signature="6:157" ph="..." />
-            <marker date="1569221584000" expanded="true" signature="306:9748" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="1577:1925" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="2036:2231" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="2262:5236" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="2363:2385" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="3090:3118" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="4934:5232" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="4944:5181" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
-            <marker date="1569221584000" expanded="true" signature="5242:5465" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
-            <marker date="1569221584000" expanded="true" signature="5528:6563" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="5607:5697" ph="/* Update food text display to reflect current score. ... */" />
-            <marker date="1569221584000" expanded="true" signature="6088:6310" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="6610:6732" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="6736:6922" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
-            <marker date="1569221584000" expanded="true" signature="6977:7364" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="7539:8223" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="7635:7885" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="7992:8014" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="8057:8103" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="8204:8219" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="8298:8619" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="8306:8515" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
-            <marker date="1569221584000" expanded="true" signature="8628:8745" ph="/* is called when an enemy attacks the player. ... */" />
-            <marker date="1569221584000" expanded="true" signature="9303:9745" ph="{...}" />
-            <marker date="1569221584000" expanded="true" signature="9393:9741" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="6:148" ph="..." />
+            <marker date="1569748342000" expanded="true" signature="297:10228" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="1685:2033" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="2144:2339" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="2370:5345" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="2471:2493" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="3198:3226" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="5042:5341" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="5052:5289" ph="/* Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they en ... */" />
+            <marker date="1569748342000" expanded="true" signature="5351:5574" ph="/* AttemptMove overrides the AttemptMove function in the base class MovingObject ... */" />
+            <marker date="1569748342000" expanded="true" signature="5637:6672" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="5716:5806" ph="/* Update food text display to reflect current score. ... */" />
+            <marker date="1569748342000" expanded="true" signature="6197:6419" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="6719:6919" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="6923:7109" ph="/* OnCantMove overrides the abstract function OnCantMove in MovingObject. ... */" />
+            <marker date="1569748342000" expanded="true" signature="7164:7790" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="7965:8649" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8061:8311" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8418:8440" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8483:8529" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8630:8645" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8724:9045" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="8732:8941" ph="/* Load the last scene loaded, in this case Main, the only scene in the game. And we load it in &quot;Single&quot; mode so  ... */" />
+            <marker date="1569748342000" expanded="true" signature="9054:9171" ph="/* is called when an enemy attacks the player. ... */" />
+            <marker date="1569748342000" expanded="true" signature="9210:9598" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="9729:10225" ph="{...}" />
+            <marker date="1569748342000" expanded="true" signature="9819:10221" ph="{...}" />
           </folding>
         </state>
       </provider>

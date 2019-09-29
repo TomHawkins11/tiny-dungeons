@@ -10,14 +10,24 @@ public class CameraController : MonoBehaviour
     public Vector3 offset;
 
     public float smoothSpeed;
-    
-    
+    private bool _istargetNotNull;
+
+
     // Start is called before the first frame update
+    private void Start()
+    {
+        _istargetNotNull = target != null;
+    }
+
     private void FixedUpdate()
     {
-        Vector3 desiredPosition = target.position + offset;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPosition;
+        if (_istargetNotNull)
+        {
+            Vector3 desiredPosition = target.position + offset;
+            Vector3 smoothedPosition = Vector3.Slerp(transform.position, desiredPosition, smoothSpeed);
+            transform.position = smoothedPosition;
+        }
+        
 
         //transform.position = new Vector3();    
     }

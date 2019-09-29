@@ -109,6 +109,12 @@ using UnityEngine.Serialization;
 			_enemies.Add(script);
 		}
 		
+		public void RemoveEnemyFromList(Enemy script)
+		{
+			//Add Enemy to List enemies.
+			_enemies.Remove(script);
+		}
+		
 		
 		//GameOver is called when the player reaches 0 food points
 		public void GameOver()

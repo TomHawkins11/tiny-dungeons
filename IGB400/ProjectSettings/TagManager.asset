@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Weapon
+  - Rations
+  - Exit
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -26,15 +26,15 @@ using UnityEngine.Serialization;
 		private static readonly int PlayerAttack = Animator.StringToHash("playerAttack");
 		private static readonly int PlayerMove = Animator.StringToHash("playerMove");
 		public GameObject tombStone;
+		private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
 
-#if UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
-        private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
-#endif
 		
 		
 		//Start overrides the Start function of MovingObject
 		protected override void Start ()
 		{
+			healthBar = GameObject.FindGameObjectWithTag("HealthBar");
+			useBar = GameObject.FindGameObjectWithTag("UseBar");
 			//Get a component reference to the Player's animator component
 			_animator = GetComponent<Animator>();
 			
@@ -136,12 +136,6 @@ using UnityEngine.Serialization;
 		//AttemptMove takes a generic parameter T which for Player will be of the type Wall, it also takes integers for x and y direction to move in.
 		protected override void AttemptMove <T> (int xDir, int yDir)
 		{
-			//Every time player moves, subtract from food points total.
-			
-			
-			//Update food text display to reflect current score.
-			//foodText.text = "Food: " + food;
-
 			
 			//Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
 			base.AttemptMove <T> (xDir, yDir);

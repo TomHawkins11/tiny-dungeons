@@ -16,7 +16,9 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         _istargetNotNull = target != null;
+        
     }
 
     private void FixedUpdate()

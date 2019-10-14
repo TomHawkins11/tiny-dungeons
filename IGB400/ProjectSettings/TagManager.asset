@@ -10,6 +10,8 @@ TagManager:
   - Enemy
   - UseBar
   - GameOverPanel
+  - PlayerSpawn
+  - HealthBar
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,8 @@ using UnityEngine.Serialization;
 		private List<Enemy> _enemies;							//List of all Enemy units, used to issue them move commands.
 		private bool _enemiesMoving;								//Boolean to check if enemies are moving.
 		private bool _doingSetup = true;							//Boolean to check if we're setting up board, prevent Player from moving during setup.
-		
+		public GameObject PlayerObject;
+		public GameObject SpawnLocation;
 		
 		
 		//Awake is always called before any Start functions
@@ -68,14 +69,24 @@ using UnityEngine.Serialization;
 		//Initializes the game for each level.
 		public void InitGame()
 		{
+			
 			//While doingSetup is true the player can't move, prevent player from moving while title card is up.
 			_doingSetup = true;
-			
 
-			
+
+			SpawnLocation = GameObject.FindGameObjectWithTag("PlayerSpawn");
+			if (GameObject.FindGameObjectWithTag("Player") != null)
+			{
+				GameObject.FindGameObjectWithTag("Player").transform.position = SpawnLocation.transform.position;
+			}
+			else
+			{
+				Instantiate(PlayerObject, SpawnLocation.transform.position, Quaternion.identity);
+
+			}
 			//Clear any Enemy objects in our List to prepare for next level.
 			_enemies.Clear();
-
+			
 			StartPlay();
 		}
 		

@@ -11,7 +11,9 @@ using UnityEngine.Serialization;
 	{
 		public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
 		public int wallDamage = 1;					//How much damage a player does to a wall when chopping it.
-		public TextMeshProUGUI healthText;						//UI Text to display current player health total.
+		[FormerlySerializedAs("healthText")] public GameObject healthBar;						//UI Text to display current player health total.
+		public GameObject useBar;
+		
 		public AudioClip moveSound1;				//1 of 2 Audio clips to play when player moves.
 		public AudioClip moveSound2;				//2 of 2 Audio clips to play when player moves.
 		public AudioClip gameOverSound;				//Audio clip to play when player dies.
@@ -66,7 +68,7 @@ using UnityEngine.Serialization;
 			int vertical = 0;		//Used to store the vertical move direction.
 			
 			//Check if we are running either in the Unity editor or in a standalone build.
-#if UNITY_STANDALONE || UNITY_WEBPLAYER
+#if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
 			
 			//Get input from the input manager, round it to an integer and store in horizontal to set x axis move direction
 			horizontal = (int) (Input.GetAxisRaw ("Horizontal"));
@@ -183,7 +185,8 @@ using UnityEngine.Serialization;
 
 			System.Diagnostics.Debug.Assert(hitEnemy != null, "hitEnemy != null");
 			hitEnemy.DamageEnemy(equippedWeapon.GetComponent<Weapon>().DealDamage());
-			Instantiate(equippedWeapon.GetComponent<Weapon>().attackPrefab, hitEnemy.gameObject.transform);
+			equippedWeapon.GetComponent<Weapon>().UpdateUses();
+			Instantiate(equippedWeapon.GetComponent<Weapon>().attackPrefab, hitEnemy.gameObject.transform.position, Quaternion.identity);
 			
 
 			//Set the attack trigger of the player's animation controller in order to play the player's attack animation.
@@ -215,6 +218,7 @@ using UnityEngine.Serialization;
 			else if(other.CompareTag("Weapon"))
 			{
 				WeaponPickup(other.gameObject);
+				equippedWeapon.GetComponent<Weapon>().UpdateUses();
 			}
 			
 			//Check if the tag of the trigger collided with is Gold.
@@ -245,7 +249,7 @@ using UnityEngine.Serialization;
 			_health -= loss;
 			
 			//Update the health display with the new total.
-			healthText.text = "-"+ loss + " Health: " + _health;
+			healthBar.GetComponent<HeartDisplay>().health = _health;
 			
 			//Check to see if game has ended.
 			CheckIfGameOver ();
@@ -267,8 +271,9 @@ using UnityEngine.Serialization;
 				//Call the GameOver function of GameManager.
 				GameManager.Instance.GameOver ();
 
-				Instantiate(tombStone);
+				Instantiate(tombStone, gameObject.transform.position, Quaternion.identity);
 				Destroy(gameObject);
+				GameObject.FindWithTag("GameOverPanel").SetActive(true);
 			}
 		}
 	}

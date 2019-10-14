@@ -8,6 +8,8 @@ TagManager:
   - Rations
   - Exit
   - Enemy
+  - UseBar
+  - GameOverPanel
   layers:
   - Default
   - TransparentFX

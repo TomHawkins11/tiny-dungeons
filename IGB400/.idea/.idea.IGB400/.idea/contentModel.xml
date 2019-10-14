@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Ann Ghea\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Ann Ghea\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_IGB400.-961876898.00" t="ExcludeRecursive" />
-    <e p="F:\TOM\Unity Projects\IGB400\t-d\IGB400" t="IncludeRecursive">
+    <e p="A:\TOM\Unity Projects\tiny-dungeons\IGB400" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -98,6 +96,7 @@
             </e>
           </e>
         </e>
+        <e p="HeartDisplay.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
@@ -161,5 +160,7 @@
       <e p="Unity.2D.Tilemap.Extras.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Tilemap.Extras.Editor.csproj" t="IncludeRecursive" />
     </e>
+    <e p="C:\Users\Tom Hawkins\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tom Hawkins\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_IGB400.1578504112.00" t="ExcludeRecursive" />
   </component>
 </project>

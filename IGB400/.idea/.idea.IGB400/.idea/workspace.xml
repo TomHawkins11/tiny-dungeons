@@ -167,26 +167,26 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding>
-                <marker date="1571049887967" expanded="false" signature="6:200" ph="..." />
-                <marker date="1571049887967" expanded="true" signature="271:5379" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="1222:2003" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="1854:1984" ph="/* Get a component reference to the attached BoardManager script ... */" />
-                <marker date="1571049887967" expanded="true" signature="2013:2217" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
-                <marker date="1571049887967" expanded="true" signature="2351:2505" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="2634:2687" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="2757:3353" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="3021:3135" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="3143:3240" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="3420:3514" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="3565:3861" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="3978:4043" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="4094:4162" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="4254:4317" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="4391:5376" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="4684:4875" ph="{...}" />
-                <marker date="1571049887967" expanded="true" signature="4955:5177" ph="{...}" />
+                <marker date="1571049958413" expanded="false" signature="6:200" ph="..." />
+                <marker date="1571049958413" expanded="true" signature="271:5377" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="1222:2003" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="1854:1984" ph="/* Get a component reference to the attached BoardManager script ... */" />
+                <marker date="1571049958413" expanded="true" signature="2013:2217" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+                <marker date="1571049958413" expanded="true" signature="2351:2505" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="2634:2687" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="2757:3351" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="3021:3133" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="3141:3238" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="3418:3512" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="3563:3859" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="3976:4041" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="4092:4160" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="4252:4315" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="4389:5374" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="4682:4873" ph="{...}" />
+                <marker date="1571049958413" expanded="true" signature="4953:5175" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -353,12 +353,12 @@
       <workItem from="1569740067729" duration="353000" />
       <workItem from="1569740672909" duration="6987000" />
       <workItem from="1571023816632" duration="8736000" />
-      <workItem from="1571039071423" duration="5283000" />
+      <workItem from="1571039071423" duration="6272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40200000" />
+    <option name="totallyTimeSpent" value="41189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,7 +371,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2847432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -600,26 +599,26 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
           <folding>
-            <marker date="1571049887967" expanded="false" signature="6:200" ph="..." />
-            <marker date="1571049887967" expanded="true" signature="271:5379" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="1222:2003" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="1854:1984" ph="/* Get a component reference to the attached BoardManager script ... */" />
-            <marker date="1571049887967" expanded="true" signature="2013:2217" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
-            <marker date="1571049887967" expanded="true" signature="2351:2505" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="2634:2687" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="2757:3353" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="3021:3135" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="3143:3240" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="3420:3514" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="3565:3861" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="3978:4043" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="4094:4162" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="4254:4317" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="4391:5376" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="4684:4875" ph="{...}" />
-            <marker date="1571049887967" expanded="true" signature="4955:5177" ph="{...}" />
+            <marker date="1571049958413" expanded="false" signature="6:200" ph="..." />
+            <marker date="1571049958413" expanded="true" signature="271:5377" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="1222:2003" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="1854:1984" ph="/* Get a component reference to the attached BoardManager script ... */" />
+            <marker date="1571049958413" expanded="true" signature="2013:2217" ph="/* this is called only once, and the paramter tell it to be called only after the scene was loaded ... */" />
+            <marker date="1571049958413" expanded="true" signature="2351:2505" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="2634:2687" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="2757:3351" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="3021:3133" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="3141:3238" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="3418:3512" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="3563:3859" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="3976:4041" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="4092:4160" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="4252:4315" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="4389:5374" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="4682:4873" ph="{...}" />
+            <marker date="1571049958413" expanded="true" signature="4953:5175" ph="{...}" />
           </folding>
         </state>
       </provider>
